@@ -1,19 +1,14 @@
 FPC = fpc
 FPCFLAGS = -B -Sh -Mobjfpc -vnlw -O2 -Xs -XX 
 
-TARGETS = \
-	even_or_odd
+TARGETS = $(patsubst %_unit.pas,%,$(wildcard *_unit.pas))
 
-.PHONY: all clean reformat run vrun rebuild
+.PHONY: all clean run vrun 
 
 all: $(TARGETS)
 
-%_unit.o: %_unit.pas
-	$(FPC) $(FPCFLAGS) $^
-
 %: %.pas
-	$(FPC) $(FPCFLAGS) $^
-	rm -f *.o *.ppu
+	$(FPC) $(FPCFLAGS) $<
 
 clean:
 	rm -f *.o *.ppu $(TARGETS)
