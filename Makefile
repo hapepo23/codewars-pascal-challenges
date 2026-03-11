@@ -7,7 +7,7 @@ TARGETS = $(patsubst %_unit.pas,%,$(wildcard *_unit.pas))
 
 all: $(TARGETS)
 
-%: %.pas
+%: %.pas %_unit.pas
 	$(FPC) $(FPCFLAGS) $<
 
 clean:
