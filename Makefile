@@ -9,6 +9,7 @@ all: $(TARGETS)
 
 %: %.pas %_unit.pas
 	$(FPC) $(FPCFLAGS) $<
+	rm -f *.o *.ppu
 
 clean:
 	rm -f *.o *.ppu $(TARGETS)
