@@ -24,6 +24,6 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in Pascal
 
-1. [<8 kyu> Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) - Solution: [even_or_odd.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/even_or_odd.pas)
+1. [<8 kyu> Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) - Solution: [even_or_odd_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/even_or_odd_unit.pas)
 
 -----
