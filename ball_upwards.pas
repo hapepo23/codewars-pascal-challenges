@@ -12,7 +12,7 @@ uses
   ball_upwards_unit;
   
 procedure DoTest(v0: Int64; Expected: Int64);
-  var
+var
   Actual: Int64;
 begin
   Actual := MaxBall(v0);

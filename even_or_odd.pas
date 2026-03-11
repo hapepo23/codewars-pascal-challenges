@@ -12,7 +12,7 @@ uses
   even_or_odd_unit;
   
 procedure DoTest(Num: Integer; Expected: String);
-  var
+var
   Actual: String;
 begin
   Actual := EvenOrOdd(Num);

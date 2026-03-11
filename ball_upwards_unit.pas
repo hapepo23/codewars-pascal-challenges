@@ -15,14 +15,14 @@ function MaxBall(v0: Int64): Int64;
 implementation
 
 function MaxBall(v0: Int64): Int64;
-  var
-    StartVelocityMeterPerSec: Double;
-    HeightMeter: Double;
-    MaxHeightMeter: Double;
-    TimeSec: Double;
-    TenthSecond: Int64;
-  const
-    G: Double = 9.81;
+var
+  StartVelocityMeterPerSec: Double;
+  HeightMeter: Double;
+  MaxHeightMeter: Double;
+  TimeSec: Double;
+  TenthSecond: Int64;
+const
+  G: Double = 9.81;
 begin
   StartVelocityMeterPerSec := v0 * 1000.0 / 3600.0;
   MaxHeightMeter := 0.0;
