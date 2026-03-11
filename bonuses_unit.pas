@@ -20,7 +20,7 @@ implementation
 function Bonus(arr: TI64Array; s: int64): TI64Array;
 var
   i, j, l: integer;
-  nom, denom, sum: double;
+  nom, denom, sum: extended;
 begin
   l := length(arr);
   SetLength(Result, l);
