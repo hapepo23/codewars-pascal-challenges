@@ -10,25 +10,19 @@ unit robinson_crusoe_unit;
 
 interface
 
-type 
-  TArr = array [0..1] of Double;
+type
+  TArr = array [0..1] of double;
 
-function Crusoe(n: Int64; 
-                d: Double; 
-                ang: Int64; 
-                distmult: Double; 
-                angmult: Double): TArr;
+function Crusoe(n: int64; d: double; ang: int64;
+  distmult: double; angmult: double): TArr;
 
 implementation
 
-function Crusoe(n: Int64; 
-                d: Double; 
-                ang: Int64; 
-                distmult: Double; 
-                angmult: Double): TArr;
+function Crusoe(n: int64; d: double; ang: int64;
+  distmult: double; angmult: double): TArr;
 var
-  i: Int64;
-  a: Double;
+  i: int64;
+  a: double;
 begin
   a := ang;
   Result[0] := 0;

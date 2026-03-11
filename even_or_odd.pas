@@ -10,25 +10,25 @@ program even_or_odd;
 
 uses
   even_or_odd_unit;
-  
-procedure DoTest(Num: Integer; Expected: String);
-var
-  Actual: String;
-begin
-  Actual := EvenOrOdd(Num);
-  writeln('Num     : ', Num);
-  writeln('Expected: ', Expected);
-  writeln('Actual  : ', Actual);
-  if Expected = Actual then
-    writeln('-> OK', LineEnding)
-  else
-    writeln('-> FAIL', LineEnding)
-end;
 
-begin 
-  DoTest(1,'Odd');
-  DoTest(2,'Even');
-  DoTest(-1,'Odd');
-  DoTest(-2,'Even');
-  DoTest(0,'Even');
+  procedure DoTest(Num: integer; Expected: string);
+  var
+    Actual: string;
+  begin
+    Actual := EvenOrOdd(Num);
+    writeln('Num     : ', Num);
+    writeln('Expected: ', Expected);
+    writeln('Actual  : ', Actual);
+    if Expected = Actual then
+      writeln('-> OK', LineEnding)
+    else
+      writeln('-> FAIL', LineEnding);
+  end;
+
+begin
+  DoTest(1, 'Odd');
+  DoTest(2, 'Even');
+  DoTest(-1, 'Odd');
+  DoTest(-2, 'Even');
+  DoTest(0, 'Even');
 end.

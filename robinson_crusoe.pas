@@ -11,39 +11,36 @@ program robinson_crusoe;
 uses
   robinson_crusoe_unit;
 
-type 
-  TArr = array [0..1] of Double;
-  
-var 
+type
+  TArr = array [0..1] of double;
+
+var
   r: TArr;
 
-procedure DoTest(n: Int64; 
-                 d: Double; 
-                 ang: Int64; 
-                 distmult: Double; 
-                 angmult: Double; 
-                 Expected: TArr);
-var
-  Actual: TArr;
-const
-  eps: Double = 1e-9;
-begin
-  Actual := Crusoe(n, d, ang, distmult, angmult);
-  writeln('n       : ', n);
-  writeln('d       : ', d);
-  writeln('ang     : ', ang);
-  writeln('distmult: ', distmult);
-  writeln('angmult : ', angmult);
-  writeln('Expected: {', Expected[0], ', ', Expected[1], '}');
-  writeln('Actual  : {', Actual[0], ', ', Actual[1], '}');
-  if (Abs(Actual[0] - Expected[0]) <= eps) and 
-     (Abs(Actual[1] - Expected[1]) <= eps) then
-    writeln('-> OK', LineEnding)
-  else
-    writeln('-> FAIL', LineEnding)
-end;
+  procedure DoTest(n: int64; d: double; ang: int64;
+    distmult: double; angmult: double;
+    Expected: TArr);
+  var
+    Actual: TArr;
+  const
+    eps: double = 1e-9;
+  begin
+    Actual := Crusoe(n, d, ang, distmult, angmult);
+    writeln('n       : ', n);
+    writeln('d       : ', d);
+    writeln('ang     : ', ang);
+    writeln('distmult: ', distmult);
+    writeln('angmult : ', angmult);
+    writeln('Expected: {', Expected[0], ', ', Expected[1], '}');
+    writeln('Actual  : {', Actual[0], ', ', Actual[1], '}');
+    if (Abs(Actual[0] - Expected[0]) <= eps) and
+      (Abs(Actual[1] - Expected[1]) <= eps) then
+      writeln('-> OK', LineEnding)
+    else
+      writeln('-> FAIL', LineEnding);
+  end;
 
-begin 
+begin
   r[0] := 0.830673754438;
   r[1] := 0.620694691344;
   DoTest(5, 0.2, 30, 1.02, 1.1, r);

@@ -10,16 +10,16 @@ unit even_or_odd_unit;
 
 interface
 
-function EvenOrOdd(Num: Integer): String;
+function EvenOrOdd(Num: integer): string;
 
 implementation
 
-function EvenOrOdd(Num: Integer): String;
+function EvenOrOdd(Num: integer): string;
 begin
   if Num mod 2 = 0 then
     Result := 'Even'
   else
-    Result := 'Odd'
+    Result := 'Odd';
 end;
 
 end.

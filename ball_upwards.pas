@@ -10,22 +10,22 @@ program ball_upwards;
 
 uses
   ball_upwards_unit;
-  
-procedure DoTest(v0: Int64; Expected: Int64);
-var
-  Actual: Int64;
-begin
-  Actual := MaxBall(v0);
-  writeln('v0      : ', v0);
-  writeln('Expected: ', Expected);
-  writeln('Actual  : ', Actual);
-  if Expected = Actual then
-    writeln('-> OK', LineEnding)
-  else
-    writeln('-> FAIL', LineEnding)
-end;
 
-begin 
+  procedure DoTest(v0: int64; Expected: int64);
+  var
+    Actual: int64;
+  begin
+    Actual := MaxBall(v0);
+    writeln('v0      : ', v0);
+    writeln('Expected: ', Expected);
+    writeln('Actual  : ', Actual);
+    if Expected = Actual then
+      writeln('-> OK', LineEnding)
+    else
+      writeln('-> FAIL', LineEnding);
+  end;
+
+begin
   DoTest(37, 10);
   DoTest(45, 13);
   DoTest(99, 28);

@@ -10,19 +10,19 @@ unit ball_upwards_unit;
 
 interface
 
-function MaxBall(v0: Int64): Int64;
+function MaxBall(v0: int64): int64;
 
 implementation
 
-function MaxBall(v0: Int64): Int64;
+function MaxBall(v0: int64): int64;
 var
-  StartVelocityMeterPerSec: Double;
-  HeightMeter: Double;
-  MaxHeightMeter: Double;
-  TimeSec: Double;
-  TenthSecond: Int64;
+  StartVelocityMeterPerSec: double;
+  HeightMeter: double;
+  MaxHeightMeter: double;
+  TimeSec: double;
+  TenthSecond: int64;
 const
-  G: Double = 9.81;
+  G: double = 9.81;
 begin
   StartVelocityMeterPerSec := v0 * 1000.0 / 3600.0;
   MaxHeightMeter := 0.0;
@@ -30,12 +30,12 @@ begin
   repeat
     TenthSecond := TenthSecond + 1;
     TimeSec := TenthSecond / 10.;
-    HeightMeter := StartVelocityMeterPerSec * TimeSec - 
-                   0.5 * G * TimeSec * TimeSec;
+    HeightMeter := StartVelocityMeterPerSec * TimeSec - 0.5 *
+      G * TimeSec * TimeSec;
     if HeightMeter >= MaxHeightMeter then
       MaxHeightMeter := HeightMeter;
   until HeightMeter < MaxHeightMeter;
   Result := TenthSecond - 1;
-end; 
+end;
 
 end.
