@@ -37,6 +37,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<6 kyu> Simpson's Rule - Approximate Integration](https://www.codewars.com/kata/565abd876ed46506d600000d) - Solution: [simpsons_rule_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/simpsons_rule_unit.pas)
 1. [<7 kyu> Count the Digit](https://www.codewars.com/kata/566fc12495810954b1000030) - Solution: [count_the_digit_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/count_the_digit_unit.pas)
 1. [<7 kyu> Going to the cinema](https://www.codewars.com/kata/562f91ff6a8b77dfe900006e) - Solution: [going_to_the_cinema_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/going_to_the_cinema_unit.pas)
+1. [<7 kyu> Leap Years](https://www.codewars.com/kata/526c7363236867513f0005ca) - Solution: [leap_years_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/leap_years_unit.pas)
 1. [<7 kyu> Robinson Crusoe](https://www.codewars.com/kata/5d95b7644a336600271f52ba) - Solution: [robinson_crusoe_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/robinson_crusoe_unit.pas)
 1. [<8 kyu> Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) - Solution: [even_or_odd_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/even_or_odd_unit.pas)
 
