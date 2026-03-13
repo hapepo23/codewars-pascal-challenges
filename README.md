@@ -12,7 +12,7 @@
 
 -----
 
-My solutions to some [**Codewars challenges**](https://www.codewars.com/users/briskwalker), programmed in **Pascal**, might not be the most sophisticated, but at least mostly easy to read and understand. However, a few are implemented rather poorly. 
+My solutions to some [**Codewars challenges**](https://www.codewars.com/users/briskwalker), programmed in **Pascal**, might not be the most sophisticated, but at least mostly easy to read and understand. 
 
 -----
 
