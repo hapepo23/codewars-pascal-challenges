@@ -36,6 +36,7 @@ The code I released here into the public domain may appear in third-party projec
 ### List of all challenges I solved in Pascal
 
 1. [<6 kyu> Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) - Solution: [same_arrays_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/same_arrays_unit.pas)
+1. [<6 kyu> ASCII Fun #1: X-Shape](https://www.codewars.com/kata/5906436806d25f846400009b) - Solution: [x_shape_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/x_shape_unit.pas)
 1. [<6 kyu> Ball Upwards](https://www.codewars.com/kata/566be96bb3174e155300001b) - Solution: [ball_upwards_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/ball_upwards_unit.pas)
 1. [<6 kyu> Bonuses](https://www.codewars.com/kata/5d68d05e7a60ba002b0053f6) - Solution: [bonuses_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/bonuses_unit.pas)
 1. [<6 kyu> Cuckoo Clock](https://www.codewars.com/kata/656e4602ee72af0017e37e82) - Solution: [cuckoo_clock_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/cuckoo_clock_unit.pas)
