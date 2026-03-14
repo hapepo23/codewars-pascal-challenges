@@ -14,6 +14,8 @@
 
 My solutions to some [**Codewars challenges**](https://www.codewars.com/users/briskwalker), programmed in **Pascal**, might not be the most sophisticated, but at least mostly easy to read and understand.
 
+Current Pascal rank (since March 14, 2026): 6 kyu.
+
 -----
 
 See also:
