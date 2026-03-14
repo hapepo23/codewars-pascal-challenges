@@ -1,8 +1,8 @@
 # My solutions to Codewars challenges - programmed in Pascal. 
 
-| ![Blaise Pascal](Blaise_Pascal.jpg) | ![Lazarus IDE Logo](PAS.png) |
-|:---:|:---:|
-| Blaise Pascal | Lazarus IDE |
+| ![Blaise Pascal](Blaise_Pascal.jpg) | ![Niklaus Wirth](Niklaus_Wirth.jpg) | ![Lazarus IDE Logo](PAS.png) |
+|:---:|:---:|:---:|
+| Blaise Pascal | Niklaus Wirth | Lazarus IDE |
 
 [![badge](https://www.codewars.com/users/briskwalker/badges/large)](https://www.codewars.com/users/briskwalker)
 
