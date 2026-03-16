@@ -24,6 +24,7 @@ See also:
 
 - [My solutions to Codewars challenges - programmed in C](https://github.com/hapepo23/codewars-c-challenges)
 - [My solutions to Codewars challenges - programmed in C++](https://github.com/hapepo23/codewars-cplusplus-challenges)
+- [My solutions to Codewars challenges - programmed in Python](https://github.com/hapepo23/codewars-python-challenges)
 
 -----
 
