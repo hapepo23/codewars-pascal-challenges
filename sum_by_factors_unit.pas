@@ -27,13 +27,11 @@ type
 
 function UniquePrimeFactors(n: int64): IntegerArray;
 var
-  factors: IntegerArray;
-  i: integer;
+  factors: IntegerArray = nil;
+  i: integer = 2;
 begin
-  factors := IntegerArray.Create;
   SetLength(factors, 0);
   n := Abs(n);
-  i := 2;
   while i * i <= n do
   begin
     if n mod i = 0 then
@@ -55,13 +53,12 @@ end;
 
 function SumOfDivided(const a: IntegerArray): TArr2D;
 var
-  primeSums: TprecArray;
+  primeSums: TprecArray = nil;
   temp: Tprec;
   i, j, k: integer;
   factors: IntegerArray;
   found: boolean;
 begin
-  primeSums := TPrecArray.Create;
   SetLength(primeSums, 0);
   for i := 0 to High(a) do
   begin
@@ -94,7 +91,7 @@ begin
         primeSums[i] := primeSums[j];
         primeSums[j] := temp;
       end;
-  Result := TArr2D.Create;
+  Result := nil;
   SetLength(Result, Length(primeSums));
   for i := 0 to High(primeSums) do
   begin
