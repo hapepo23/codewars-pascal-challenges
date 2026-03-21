@@ -38,6 +38,7 @@ The code I released here into the public domain may appear in third-party projec
 
 1. [<4 kyu> Sum by Factors](https://www.codewars.com/kata/54d496788776e49e6b00052f) - Solution: [sum_by_factors_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/sum_by_factors_unit.pas)
 1. [<5 kyu> Best travel](https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa) - Solution: [best_travel_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/best_travel_unit.pas)
+1. [<5 kyu> Some Egyptian fractions](https://www.codewars.com/kata/54f8693ea58bce689100065f) - Solution: [some_egyptian_fractions_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/some_egyptian_fractions_unit.pas)
 1. [<6 kyu> Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) - Solution: [same_arrays_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/same_arrays_unit.pas)
 1. [<6 kyu> ASCII Fun #1: X-Shape](https://www.codewars.com/kata/5906436806d25f846400009b) - Solution: [x_shape_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/x_shape_unit.pas)
 1. [<6 kyu> Ball Upwards](https://www.codewars.com/kata/566be96bb3174e155300001b) - Solution: [ball_upwards_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/ball_upwards_unit.pas)

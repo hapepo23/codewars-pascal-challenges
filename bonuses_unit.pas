@@ -23,6 +23,7 @@ var
   nom, denom, sum: extended;
 begin
   l := length(arr);
+  Result := nil;
   SetLength(Result, l);
   nom := s;
   for i := 1 to l - 1 do
