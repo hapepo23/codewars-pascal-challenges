@@ -1,6 +1,6 @@
 # My solutions to Codewars challenges - programmed in [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)). 
 
-| ![Blaise Pascal](Blaise_Pascal.jpg) | ![Niklaus Wirth](Niklaus_Wirth.jpg) | ![Lazarus IDE Logo](PAS.png) |
+| ![Blaise Pascal](Blaise_Pascal.jpg) | ![Niklaus Wirth](Niklaus_Wirth.jpg) | ![Powered By Lazarus](Powered_By_Lazarus.png) |
 |:---:|:---:|:---:|
 | [Blaise Pascal](https://en.wikipedia.org/wiki/Blaise_Pascal) | [Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth) | [Lazarus IDE](https://en.wikipedia.org/wiki/Lazarus_(software)) |
 
