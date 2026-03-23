@@ -10,7 +10,7 @@
 
 ### A word of warning
 
-**If you really want to learn Pascal and improve through the challenges, don't just copy my solutions. You won't learn anything that way!**
+**If you really want to learn Pascal and improve through the challenges, don't just copy my solutions. You won't learn anything that way!** (Cheating and plagiarizing is not permitted on the Codewars website. Violators will face account suspension or ban.)
 
 -----
 
