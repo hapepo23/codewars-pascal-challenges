@@ -21,11 +21,11 @@ var
   begin
     Actual := Balance(book);
     writeln('Book:' + LineEnding + '----------' + LineEnding +
-      ReplaceStr(book, '\n', #10) + LineEnding + '----------');
+      ReplaceStr(book, '\n', LineEnding) + LineEnding + '----------');
     writeln('Expected:' + LineEnding + '----------' + LineEnding +
-      ReplaceStr(Expected, '\n', #10) + LineEnding + '----------');
+      ReplaceStr(Expected, '\n', LineEnding) + LineEnding + '----------');
     writeln('Actual:' + LineEnding + '----------' + LineEnding +
-      ReplaceStr(Actual, '\n', #10) + LineEnding + '----------');
+      ReplaceStr(Actual, '\n', LineEnding) + LineEnding + '----------');
     if Expected = Actual then
       writeln('-> OK')
     else
