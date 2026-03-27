@@ -34,7 +34,9 @@ begin
   for item1 in a1 do
     for item2 in a2 do
       if Pos(item1, item2) > 0 then
-        if not list.Contains(item1) then
+        if list.Contains(item1) then
+          Break
+        else
         begin
           list.Add(item1);
           Break;
