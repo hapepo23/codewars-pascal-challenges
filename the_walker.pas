@@ -10,8 +10,7 @@ program the_walker;
 
 uses
   the_walker_unit,
-  SysUtils,
-  Math;
+  SysUtils;
 
 type
   TWalker = array [0..3] of int64;

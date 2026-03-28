@@ -10,16 +10,15 @@ unit the_walker_unit;
 
 interface
 
-uses
-  SysUtils,
-  Math;
-
 type
   TWalker = array [0..3] of int64;
 
 function solve(a, b, c, alpha, beta, gamma: int64): TWalker;
 
 implementation
+
+uses
+  Math;
 
 function solve(a, b, c, alpha, beta, gamma: int64): TWalker;
 var
@@ -28,12 +27,12 @@ begin
   al := alpha * Pi / 180.0;
   be := beta * Pi / 180.0;
   ga := gamma * Pi / 180.0;
-  xa := a * cos(al);
-  ya := a * sin(al);
-  xb := xa - b * sin(be);
-  yb := ya + b * cos(be);
-  xc := xb - c * cos(ga);
-  yc := yb - c * sin(ga);
+  xa := a * Cos(al);
+  ya := a * Sin(al);
+  xb := xa - b * Sin(be);
+  yb := ya + b * Cos(be);
+  xc := xb - c * Cos(ga);
+  yc := yb - c * Sin(ga);
   Result[0] := Round(Sqrt(Sqr(xc) + Sqr(yc)));
   angle := Arctan2(yc, xc) * 180.0 / Pi;
   Result[1] := Trunc(angle);
