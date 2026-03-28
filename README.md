@@ -37,6 +37,7 @@ The code I released here into the public domain may appear in third-party projec
 ### List of all challenges I solved in Pascal
 
 1. [<4 kyu> Sum by Factors](https://www.codewars.com/kata/54d496788776e49e6b00052f) - Solution: [sum_by_factors_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/sum_by_factors_unit.pas)
+1. [<4 kyu> Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) - Solution: [twice_linear_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/twice_linear_unit.pas)
 1. [<5 kyu> Best travel](https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa) - Solution: [best_travel_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/best_travel_unit.pas)
 1. [<5 kyu> Closest and Smallest](https://www.codewars.com/kata/5868b2de442e3fb2bb000119) - Solution: [closest_and_smallest_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/closest_and_smallest_unit.pas)
 1. [<5 kyu> Euler's method for a first-order ODE](https://www.codewars.com/kata/56347fcfd086de8f11000014) - Solution: [eulers_method_1st_order_ode_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/eulers_method_1st_order_ode_unit.pas)
