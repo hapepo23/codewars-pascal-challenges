@@ -52,7 +52,7 @@ begin
   Result := '????????????';
   for i := 0 to list.Count - 1 do
     Result[i + 1] := Chr(list[i] mod m);
-  FreeAndNil(list);
+  list.Free;
 end;
 
 end.

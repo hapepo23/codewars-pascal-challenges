@@ -106,8 +106,8 @@ begin
     begin
       if (Pos('.', re.Match[2]) > 0) or (Pos('.', re.Match[2]) > 0) then
       begin
-        FreeAndNil(teamdata);
-        FreeAndNil(re);
+        teamdata.Free;
+        re.Free;
         Exit('Error(float number):' + rec);
       end
       else
@@ -136,8 +136,8 @@ begin
       ';Scored=' + IntToStr(team.pnts_scored) + ';Conceded=' +
       IntToStr(team.pnts_conceded) + ';Points=' + IntToStr(team.marks);
   end;
-  FreeAndNil(teamdata);
-  FreeAndNil(re);
+  teamdata.Free;
+  re.Free;
 end;
 
 end.

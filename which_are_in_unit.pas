@@ -45,7 +45,7 @@ begin
   SetLength(Result, list.Count);
   for i := 0 to list.Count - 1 do
     Result[i] := list[i];
-  FreeAndNil(list);
+  list.Free;
 end;
 
 end.

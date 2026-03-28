@@ -98,7 +98,7 @@ begin
     Result[i][1] := list.Items[j + i].position;
     Result[i][2] := list.Items[j + i].number;
   end;
-  FreeAndNil(list);
+  list.Free;
 end;
 
 end.

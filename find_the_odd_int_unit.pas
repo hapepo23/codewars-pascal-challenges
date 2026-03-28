@@ -39,9 +39,11 @@ begin
     if kv.Value mod 2 = 1 then
     begin
       Result := kv.Key;
+      counts.Free;
       Exit;
     end;
   Result := -1;  { should not happen }
+  counts.Free;
 end;
 
 end.

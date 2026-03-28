@@ -53,7 +53,7 @@ begin
   end;
   Result[1] := -1;
   Result[2] := -1;
-  FreeAndNil(re);
+  re.Free;
   Lines := nil;
   if found then
   begin

@@ -86,7 +86,7 @@ begin
   end;
   list.Sort(TNameWinNumComparer.Construct(@CompareNameWinNum));
   Result := list[n - 1].firstname;
-  FreeAndNil(list);
+  list.Free;
 end;
 
 end.

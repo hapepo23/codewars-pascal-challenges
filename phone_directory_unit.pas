@@ -91,8 +91,8 @@ begin
       ', Address => ' + pb[j].address
   else
     Result := 'Error => Too many people: ' + num;
-  FreeAndNil(re_name);
-  FreeAndNil(re_tel);
+  re_name.Free;
+  re_tel.Free;
   pb := nil;
 end;
 
