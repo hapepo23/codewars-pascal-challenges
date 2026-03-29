@@ -84,6 +84,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> Maximum Multiple](https://www.codewars.com/kata/5aba780a6a176b029800041c) - Solution: [maximum_multiple_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/maximum_multiple_unit.pas)
 1. [<7 kyu> Palindrome chain length](https://www.codewars.com/kata/525f039017c7cd0e1a000a26) - Solution: [palindrome_chain_length_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/palindrome_chain_length_unit.pas)
 1. [<7 kyu> Robinson Crusoe](https://www.codewars.com/kata/5d95b7644a336600271f52ba) - Solution: [robinson_crusoe_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/robinson_crusoe_unit.pas)
+1. [<7 kyu> Target Date](https://www.codewars.com/kata/569218bc919ccba77000000b) - Solution: [target_date_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/target_date_unit.pas)
 1. [<8 kyu> Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) - Solution: [even_or_odd_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/even_or_odd_unit.pas)
 1. [<8 kyu> Function 1 - hello world](https://www.codewars.com/kata/523b4ff7adca849afe000035) - Solution: [hello_world_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/hello_world_unit.pas)
 
