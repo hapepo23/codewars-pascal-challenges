@@ -36,6 +36,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in Pascal
 
+1. [<4 kyu> Strings Mix](https://www.codewars.com/kata/5629db57620258aa9d000014) - Solution: [strings_mix_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/strings_mix_unit.pas)
 1. [<4 kyu> Sum by Factors](https://www.codewars.com/kata/54d496788776e49e6b00052f) - Solution: [sum_by_factors_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/sum_by_factors_unit.pas)
 1. [<4 kyu> Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) - Solution: [twice_linear_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/twice_linear_unit.pas)
 1. [<5 kyu> Best travel](https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa) - Solution: [best_travel_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/best_travel_unit.pas)
