@@ -53,22 +53,22 @@ begin
     rem := 0;
     while (k > 0) and (p[k - 1] = 1) do
     begin
-      rem := rem + p[k - 1];
-      k := k - 1;
+      rem += p[k - 1];
+      Dec(k);
     end;
     if k = 0 then
       Break;
-    p[k - 1] := p[k - 1] - 1;
-    rem := rem + 1;
+    Dec(p[k - 1]);
+    Inc(rem);
     val := p[k - 1];
     while rem > val do
     begin
       p[k] := val;
-      rem := rem - val;
-      k := k + 1;
+      rem -= val;
+      Inc(k);
     end;
     p[k] := rem;
-    k := k + 1;
+    Inc(k);
   end;
   specialize TArrayHelper<int64>.Sort(prod);
   avg := 0.0;

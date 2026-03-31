@@ -37,9 +37,7 @@ begin
   DoTest(9, 'Range: 26 Average: 11.17 Median: 9.50');
   DoTest(10, 'Range: 35 Average: 15.00 Median: 14.00');
   DoTest(11, 'Range: 53 Average: 19.69 Median: 16.00');
-  DoTest(11, 'Range: 53 Average: 19.69 Median: 16.00');
   DoTest(16, 'Range: 323 Average: 84.44 Median: 56.00');
-  DoTest(17, 'Range: 485 Average: 112.66 Median: 73.50');
   DoTest(17, 'Range: 485 Average: 112.66 Median: 73.50');
   DoTest(18, 'Range: 728 Average: 151.44 Median: 96.00');
   DoTest(20, 'Range: 1457 Average: 268.11 Median: 152.00');
