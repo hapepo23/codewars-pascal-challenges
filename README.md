@@ -16,7 +16,7 @@
 
 My solutions to some [**Codewars challenges**](https://www.codewars.com/users/briskwalker), programmed in **Pascal**, might not be the most sophisticated, but at least mostly easy to read and understand.
 
-Current Pascal rank (since March 22, 2026): 5 kyu.
+Current Pascal rank (since March 31, 2026): 4 kyu.
 
 -----
 
@@ -36,6 +36,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in Pascal
 
+1. [<4 kyu> Magnet particules in boxes](https://www.codewars.com/kata/56c04261c3fcf33f2d000534) - Solution: [magnet_particules_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/magnet_particules_unit.pas)
 1. [<4 kyu> Strings Mix](https://www.codewars.com/kata/5629db57620258aa9d000014) - Solution: [strings_mix_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/strings_mix_unit.pas)
 1. [<4 kyu> Sum by Factors](https://www.codewars.com/kata/54d496788776e49e6b00052f) - Solution: [sum_by_factors_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/sum_by_factors_unit.pas)
 1. [<4 kyu> Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) - Solution: [twice_linear_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/twice_linear_unit.pas)
