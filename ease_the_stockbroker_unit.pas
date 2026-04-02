@@ -18,24 +18,15 @@ uses
   SysUtils,
   RegExpr;
 
-function MyRound(x: double): string;
-begin
-  Result := Format('%.1f', [x]);
-  if RightStr(Result, 1) >= '5' then
-    Result := IntToStr(1 + StrToInt(LeftStr(Result, Length(Result) - 2)))
-  else
-    Result := LeftStr(Result, Length(Result) - 2);
-end;
-
 function BalanceStatement(strng: string): string;
 const
   res: string = '^([^\s]+)\s+(\d+)\s+(\d+\.\d+)\s+([SB])$';
 var
   parts: TStringArray;
-  i, errcnt: integer;
+  i, errcnt, q: integer;
   re: TRegExpr;
   errstr: string;
-  buysum, sellsum, prod: double;
+  buysum, sellsum, price, prod: double;
 begin
   if strng = '' then
     Exit('Buy: 0 Sell: 0');
@@ -50,7 +41,9 @@ begin
     parts[i] := Trim(parts[i]);
     if re.Exec(parts[i]) and (re.SubExprMatchCount = 4) then
     begin
-      prod := StrToFloat(re.Match[2]) * StrToFloat(re.Match[3]);
+      q := StrToInt(re.Match[2]);
+      price := StrToFloat(re.Match[3]);
+      prod := q * price;
       if re.Match[4] = 'B' then
         buysum += prod
       else
@@ -63,7 +56,7 @@ begin
     end;
   end;
   re.Free;
-  Result := Format('Buy: %s Sell: %s', [MyRound(buysum), MyRound(sellsum)]);
+  Result := Format('Buy: %.0f Sell: %.0f', [buysum, sellsum]);
   if errcnt > 0 then
     Result += Format('; Badly formed %d: %s', [errcnt, errstr]);
 end;

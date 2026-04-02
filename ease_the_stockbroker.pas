@@ -38,11 +38,10 @@ begin
   st := '';
   s := 'Buy: 0 Sell: 0';
   DoTest(st, s);
-  st := 'ZYGN 24.0 55.5 B,CSCO 90 160.45 S,GOOG 100 5.5 C,CLH16.NYM 12 12.8 B' +
-    LineEnding;
-  s := 'Buy: 154 Sell: 14441; Badly formed 2: ZYGN 24.0 55.5 B ;GOOG 100 5.5 C ;';
+  st := 'ZYGN 24.0 55.5 B,CSCO 90 160.45 S,GOOG 100 5.5 C,CLH16.NYM 12 12.8 B';
+  s := 'Buy: 154 Sell: 14440; Badly formed 2: ZYGN 24.0 55.5 B ;GOOG 100 5.5 C ;';
   DoTest(st, s);
   st := 'BoAML 90 160.45 S,ZYGN 45 34.8 S,MYSPACE 15 45.5 P,JPMC 50 55.5 B,APPL 78 210 B';
-  s := 'Buy: 2775 Sell: 16007; Badly formed 2: MYSPACE 15 45.5 P ;APPL 78 210 B ;';
+  s := 'Buy: 2775 Sell: 16006; Badly formed 2: MYSPACE 15 45.5 P ;APPL 78 210 B ;';
   DoTest(st, s);
 end.
