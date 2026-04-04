@@ -13,11 +13,11 @@ interface
 type
   TInt64Matrix = array of array of int64;
 
-function Determinant(matrix: TInt64Matrix): int64;
+function Determinant(const matrix: TInt64Matrix): int64;
 
 implementation
 
-function CreateSubMatrix(matrix: TInt64Matrix; col: int64): TInt64Matrix;
+function CreateSubMatrix(const matrix: TInt64Matrix; const col: int64): TInt64Matrix;
 var
   size, r, c: int64;
 begin
@@ -33,7 +33,7 @@ begin
   end;
 end;
 
-function Determinant(matrix: TInt64Matrix): int64;
+function Determinant(const matrix: TInt64Matrix): int64;
 var
   size, i, k, cofactor: int64;
   sub_matrix: TInt64Matrix;

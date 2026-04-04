@@ -18,7 +18,7 @@ type
 var
   matrix: TInt64Matrix;
 
-  function MatrixToString(matrix: TInt64Matrix): string;
+  function MatrixToString(const matrix: TInt64Matrix): string;
   var
     i, j: int64;
     res: string;
@@ -40,7 +40,7 @@ var
     Result += ']';
   end;
 
-  procedure DoTest(matrix: TInt64Matrix; Expected: int64);
+  procedure DoTest(const matrix: TInt64Matrix; Expected: int64);
   var
     Actual: int64;
   begin
@@ -67,8 +67,9 @@ begin
     [-8, 0, 9, 5, 8, 1], [77, -6, -5, 1, 23, 3], [9, 6, -7, 3, 4, 5]];
   DoTest(matrix, -3487464);
   matrix := [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [-1, 4, 8, -9, 3, 2, 6, -8, 1, 2],
-    [4, -2, 6, 3, 4, 3, 2, 4, 3, 1], [3, 1, -3, -2, 2, 1, -3, 1, 4, 3], [4, 4, 6, -4, -2, 4, -7, -3, 3, -4],
-    [1, 2, 3, 1, -5, 0, 2, 4, 0, -3], [5, 6, 4, 2, 1, -6, -5, 3, 6, -3], [7, 2, 2, -1, 4, 1, -7, 0, 3, -6],
+    [4, -2, 6, 3, 4, 3, 2, 4, 3, 1], [3, 1, -3, -2, 2, 1, -3, 1, 4, 3],
+    [4, 4, 6, -4, -2, 4, -7, -3, 3, -4], [1, 2, 3, 1, -5, 0, 2, 4, 0, -3],
+    [5, 6, 4, 2, 1, -6, -5, 3, 6, -3], [7, 2, 2, -1, 4, 1, -7, 0, 3, -6],
     [2, 2, -1, 4, 2, 2, 1, -8, 6, 3], [0, 2, 1, 2, 0, 2, 4, 2, -9, 2]];
   DoTest(matrix, -2605071686);
 end.
