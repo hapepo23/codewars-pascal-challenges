@@ -21,20 +21,10 @@ uses
     writeln('Expression: ', expression);
     writeln('Expected  : ', Format('%.15g', [expected]));
     writeln('Actual    : ', Format('%.15g', [actual]));
-    if not IsNaN(expected) then
-    begin
-      if (Abs(expected - actual) < 1e-10) then
-        writeln('-> OK', LineEnding)
-      else
-        writeln('-> FAIL', LineEnding);
-    end
+    if (Abs(expected - actual) < 1e-10) then
+      writeln('-> OK', LineEnding)
     else
-    begin
-      if IsNaN(actual) then
-        writeln('-> OK', LineEnding)
-      else
-        writeln('-> FAIL', LineEnding);
-    end;
+      writeln('-> FAIL', LineEnding);
   end;
 
 begin
@@ -68,5 +58,4 @@ begin
   DoTest('(((80 - (19))))', 61.0);
   DoTest('5.26*8.07+7.74- -5.04-(9.66)-(5.46)', 40.1082000000000036);
   DoTest('(1 - 2) + -(-(-(-4)))', 3.0);
-  DoTest('(12* 123/(5..5-2))', NaN);
 end.

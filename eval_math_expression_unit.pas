@@ -112,11 +112,7 @@ begin
   pos := 1;
   str := expression;
   len := Length(str);
-  try
-    Result := ParseExpression();
-  except
-    Result := NaN;
-  end;
+  Result := ParseExpression();
 end;
 
 end.
