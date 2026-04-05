@@ -36,6 +36,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in Pascal
 
+1. [<2 kyu> Evaluate mathematical expression](https://www.codewars.com/kata/52a78825cdfc2cfc87000005) - Solution: [eval_math_expression_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/eval_math_expression_unit.pas)
 1. [<4 kyu> Getting along with Integer Partitions](https://www.codewars.com/kata/55cf3b567fc0e02b0b00000b) - Solution: [integer_partitions_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/integer_partitions_unit.pas)
 1. [<4 kyu> Magnet particules in boxes](https://www.codewars.com/kata/56c04261c3fcf33f2d000534) - Solution: [magnet_particules_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/magnet_particules_unit.pas)
 1. [<4 kyu> Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c) - Solution: [matrix_determinant_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/matrix_determinant_unit.pas)
