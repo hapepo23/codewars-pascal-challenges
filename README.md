@@ -56,6 +56,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<5 kyu> Some Egyptian fractions](https://www.codewars.com/kata/54f8693ea58bce689100065f) - Solution: [some_egyptian_fractions_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/some_egyptian_fractions_unit.pas)
 1. [<6 kyu> Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) - Solution: [same_arrays_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/same_arrays_unit.pas)
 1. [<6 kyu> ASCII Fun #1: X-Shape](https://www.codewars.com/kata/5906436806d25f846400009b) - Solution: [x_shape_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/x_shape_unit.pas)
+1. [<6 kyu> Backwards Read Primes](https://www.codewars.com/kata/5539fecef69c483c5a000015) - Solution: [backwards_read_primes_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/backwards_read_primes_unit.pas)
 1. [<6 kyu> Ball Upwards](https://www.codewars.com/kata/566be96bb3174e155300001b) - Solution: [ball_upwards_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/ball_upwards_unit.pas)
 1. [<6 kyu> Binaries](https://www.codewars.com/kata/5d98b6b38b0f6c001a461198) - Solution: [binaries_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/binaries_unit.pas)
 1. [<6 kyu> Bonuses](https://www.codewars.com/kata/5d68d05e7a60ba002b0053f6) - Solution: [bonuses_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/bonuses_unit.pas)
