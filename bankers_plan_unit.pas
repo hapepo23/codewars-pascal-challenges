@@ -16,7 +16,7 @@ implementation
 
 function Fortune(f0: int64; p: double; c0: int64; n: int64; i: double): boolean;
 var
-  year: integer;
+  year: int64;
 begin
   for year := 2 to n do
   begin
