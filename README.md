@@ -64,6 +64,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<6 kyu> ASCII Fun #1: X-Shape](https://www.codewars.com/kata/5906436806d25f846400009b) - Solution: [x_shape_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/x_shape_unit.pas)
 1. [<6 kyu> Backwards Read Primes](https://www.codewars.com/kata/5539fecef69c483c5a000015) - Solution: [backwards_read_primes_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/backwards_read_primes_unit.pas)
 1. [<6 kyu> Ball Upwards](https://www.codewars.com/kata/566be96bb3174e155300001b) - Solution: [ball_upwards_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/ball_upwards_unit.pas)
+1. [<6 kyu> Banker's Plan](https://www.codewars.com/kata/56445c4755d0e45b8c00010a) - Solution: [bankers_plan_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/bankers_plan_unit.pas)
 1. [<6 kyu> Binaries](https://www.codewars.com/kata/5d98b6b38b0f6c001a461198) - Solution: [binaries_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/binaries_unit.pas)
 1. [<6 kyu> Bonuses](https://www.codewars.com/kata/5d68d05e7a60ba002b0053f6) - Solution: [bonuses_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/bonuses_unit.pas)
 1. [<6 kyu> Braking well](https://www.codewars.com/kata/565c0fa6e3a7d39dee000125) - Solution: [braking_well_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/braking_well_unit.pas)
