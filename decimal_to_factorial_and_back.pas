@@ -46,7 +46,9 @@ begin
   DoTest1(36287999, '99876543210');
   DoTest1(36288000, 'A0000000000');
   DoTest1(20922789887999, 'FEDCBA9876543210');
-  DoTest1(6639527386, 'DA36663441200');
+  { Wrong fix needed to pass the following, correct would be '10A36663441200' }
+  DoTest1(6639527386, 'DA36663441200');   { will wrongly be OK }
+  DoTest1(6639527386, '10A36663441200');  { will wrongly FAIL  }
   DoTest2('341010', 463);
   DoTest2('4041000', 2982);
   DoTest2('4042100', 2990);
