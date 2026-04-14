@@ -63,11 +63,15 @@ begin
     c := nb div Translate[i].fact;
     nb := nb - c * Translate[i].fact;
     Result := Result + Translate[c].letter;
-    { While converting 6639527386, a correct '10A36663441200' must be 
+    { 12 Apr 2026:
+      While converting 6639527386, a correct '10A36663441200' must be 
       fixed to invalid 'DA36663441200' to pass all tests, but
       'D' is not allowed in position 13 from right!
       In https://en.wikipedia.org/wiki/Factorial_number_system#Definition
-      this is clearly defined, see table row "Highest digit allowed". }
+      this is clearly defined, see table row "Highest digit allowed". 
+      14 Apr 2026:
+      Issue was fixed, so tests now pass without the following... 
+    -----------------------
     if i = j - 1 then
     begin
       if Result = '10' then
@@ -76,7 +80,7 @@ begin
         Result := Translate[c].letter;
       end;
     end;
-    { Wrong fix ends here }
+    ----------------------- }
   end;
 end;
 
