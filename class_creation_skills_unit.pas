@@ -7,10 +7,12 @@ https://www.codewars.com/kata/5ab4f002379d20e82500008c
 unit class_creation_skills_unit;
 
 {$mode objfpc}{$H+}
+{$modeswitch advancedrecords}
 
 interface
 
 type
+  { ---- (1) Class Version ----- }
   TX = class(TObject)
   private
     m_a: integer;
@@ -35,7 +37,28 @@ type
     procedure SetB(const b: integer);         // set b
   end;
 
+type
+  { ---- (2) Record Version ($modeswitch advancedrecords) ----- }
+  TY = record
+  private
+    m_a: integer;
+    m_b: integer;
+  public
+    constructor Create(a, b: integer); overload;
+    constructor Create(a: integer); overload;
+    class function Default: TY; static;
+    class operator +(const L, R: TY): TY;
+    class operator -(const L, R: TY): TY;
+    function ToString: string;
+    function GetA: integer;
+    function GetB: integer;
+    procedure SetA(a: integer);
+    procedure SetB(b: integer);
+  end;
+
 implementation
+
+{ ---- (1) Class Version ----- }
 
 constructor TX.Create(const a, b: integer);
 begin
@@ -118,6 +141,62 @@ begin
 end;
 
 procedure TX.SetB(const b: integer);
+begin
+  m_b := b;
+end;
+
+{ ---- (2) Record Version ($modeswitch advancedrecords) ----- }
+
+constructor TY.Create(a, b: integer);
+begin
+  m_a := a;
+  m_b := b;
+end;
+
+constructor TY.Create(a: integer);
+begin
+  Self.Create(a, 2);
+end;
+
+class function TY.Default: TY;
+begin
+  Result.m_a := 1;
+  Result.m_b := 2;
+end;
+
+class operator TY.+(const L, R: TY): TY;
+begin
+  Result.m_a := L.m_a + R.m_a;
+  Result.m_b := L.m_b + R.m_b;
+end;
+
+class operator TY.-(const L, R: TY): TY;
+begin
+  Result.m_a := L.m_a - R.m_a;
+  Result.m_b := L.m_b - R.m_b;
+end;
+
+function TY.ToString: string;
+begin
+  WriteStr(Result, '[', m_a, ',', m_b, ']');
+end;
+
+function TY.GetA: integer;
+begin
+  Result := m_a;
+end;
+
+function TY.GetB: integer;
+begin
+  Result := m_b;
+end;
+
+procedure TY.SetA(a: integer);
+begin
+  m_a := a;
+end;
+
+procedure TY.SetB(b: integer);
 begin
   m_b := b;
 end;
