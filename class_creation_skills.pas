@@ -52,8 +52,8 @@ begin
   DoTest('x3.Assign(x4); // assign x4 to x3', x3.ToString, '[3,4]');
   x1.Dec(17);
   DoTest('x1.Dec(17);', x1.ToString, '[-28,-27]');
-  x5 := x2.CloneCreate; // clone x2 to x5
-  DoTest('x5 := x2.CloneCreate; // clone x2 to x5', x5.ToString, '[9,9]');
+  x5 := x2.CreateClone; // clone x2 to x5
+  DoTest('x5 := x2.CreateClone; // clone x2 to x5', x5.ToString, '[9,9]');
   x5.Assign(0,0); // assign [0,0] to x5
   DoTest('x5.Assign(0,0); // assign [0,0] to x5', x5.ToString, '[0,0]');
   x3.SetA(-11);

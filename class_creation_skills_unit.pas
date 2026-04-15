@@ -20,7 +20,7 @@ type
     constructor Create(const a: integer);     // create with default b
     constructor Create; overload;             // create with defaults
     constructor Create(const Other: TX);      // create & assignment
-    function CloneCreate: TX;                 // create copy of self
+    function CreateClone: TX;                 // create copy of self
     destructor Destroy; override;             // destroy
     procedure Assign(const a, b: integer);    // assignment a,b to self
     procedure Assign(const Other: TX);        // assignment other to self
@@ -32,7 +32,7 @@ type
     property GetA: integer read m_a;          // get a
     property GetB: integer read m_b;          // get b
     procedure SetA(const a: integer);         // set a
-    procedure SetB(const b: integer);         // set a
+    procedure SetB(const b: integer);         // set b
   end;
 
 implementation
@@ -46,12 +46,12 @@ end;
 
 constructor TX.Create(const a: integer);
 begin
-  Create(a, 2);  // delegate
+  Self.Create(a, 2);  // delegate
 end;
 
 constructor TX.Create;
 begin
-  Create(1, 2);  // delegate
+  Self.Create(1, 2);  // delegate
 end;
 
 constructor TX.Create(const Other: TX);
@@ -60,7 +60,7 @@ begin
   Assign(Other);
 end;
 
-function TX.CloneCreate: TX;
+function TX.CreateClone: TX;
 begin
   Result := TX.Create(Self);
 end;
