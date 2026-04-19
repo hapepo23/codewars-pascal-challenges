@@ -37,4 +37,6 @@ begin
   DoTest(1.9, 182840, 48, 18, 'num_payment 18 c 3959 princ 3769 int 189 balance 115897');
   DoTest(6, 100000, 360, 1, 'num_payment 1 c 600 princ 100 int 500 balance 99900');
   DoTest(6, 100000, 360, 12, 'num_payment 12 c 600 princ 105 int 494 balance 98772');
+  DoTest(6, 100000, 360, 359, 'num_payment 359 c 600 princ 594 int 6 balance 597');
+  DoTest(6, 100000, 360, 360, 'num_payment 360 c 600 princ 597 int 3 balance 0');
 end.
