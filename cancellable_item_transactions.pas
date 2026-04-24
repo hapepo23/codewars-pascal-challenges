@@ -9,14 +9,70 @@ program cancellable_item_transactions;
 {$mode objfpc}{$H+}
 
 uses
+  SysUtils,
+  StrUtils,
   cancellable_item_transactions_unit;
 
-  procedure DoTest(price_dict, transaction: string; Expected: int64);
+  function CreatePriceDict(price_dict_str: string): TPriceDict;
+  var
+    price_data, price_item: array of string;
+    s: string;
+    c: TAlphabet;
+  begin
+    Result := TPriceDict.Create;
+    price_data := SplitString(price_dict_str, ',');
+    for s in price_data do
+    begin
+      price_item := SplitString(s, ':');
+      price_item[0] := Trim(price_item[0]);
+      c := price_item[0][1];
+      Result.Add(c, StrToInt64(price_item[1]));
+    end;
+  end;
+
+  procedure GenerateRandom(out price_dict_str: string; out transaction: string;
+    out Expected: int64);
+  var
+    litems, i, j, p, v: integer;
+    items: array of string = ();
+    sel: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    price_dict: TPriceDict;
+  begin
+    litems := Random(16) + 4;
+    SetLength(items, litems);
+    for i:= 0 to litems-1 do
+    begin
+      p := Random(Length(sel))+1;
+      items[i] := Copy(sel, p, 1);
+      Delete(sel, p, 1);
+    end;
+    price_dict_str := items[0] + ':' + InttoStr(1+Random(100));
+    for i:= 1 to litems-1 do
+      price_dict_str += ',' + items[i] + ':' + InttoStr(1+Random(100));
+    transaction := '';
+    for i:= 1 to Random(200)+30 do
+    begin
+      p := Random(litems);
+      j := Random(100);
+      v := 5+Random(25);
+      if j < 20 then
+        transaction += items[p]
+      else
+        transaction += InttoStr(v) + items[p];
+    end;
+    price_dict := CreatePriceDict(price_dict_str);
+    Expected := Calculate(price_dict, transaction);
+    price_dict.Free;
+  end;
+
+  procedure DoTest(price_dict_str, transaction: string; Expected: int64);
   var
     Actual: int64;
+    price_dict: TPriceDict;
   begin
+    price_dict := CreatePriceDict(price_dict_str);
     Actual := Calculate(price_dict, transaction);
-    writeln('Prices      : ', price_dict);
+    writeln('Prices      : ', price_dict_str);
     writeln('Transactions: ', transaction);
     writeln('Expected    : ', Expected);
     writeln('Actual      : ', Actual);
@@ -24,8 +80,13 @@ uses
       writeln('-> OK', LineEnding)
     else
       writeln('-> FAIL', LineEnding);
+    price_dict.Free;
   end;
 
+var
+  price_dict_str: string;
+  transaction: string;
+  Expected, i: int64;
 begin
   DoTest('X:0,Y:0,Z:0', '5X6Y20Z1X6Y', 0);
   DoTest('R:1,Q:2,E:3,X:4', '4R1Q4X2E1R2X', 37);
@@ -50,4 +111,10 @@ begin
   DoTest('D:251,A:229,F:223,G:70,I:161,Z:147,N:461,B:177,R:326,L:89',
     'AL-149B-334BD-348N-287R-127NZD1L-144N-150A11B-471A226NBRLG373N-357ZN-368L448I52G429L-256N-98L61NAD-90Z-228IRGZI',
     -374553);
+  Randomize;
+  for i:=1 to 100 do
+  begin
+    GenerateRandom(price_dict_str, transaction, Expected);
+    DoTest(price_dict_str, transaction, Expected);
+  end;
 end.
