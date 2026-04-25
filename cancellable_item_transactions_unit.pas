@@ -23,7 +23,6 @@ implementation
 
 uses
   SysUtils,
-  StrUtils,
   RegExpr;
 
 type
