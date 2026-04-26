@@ -23,7 +23,7 @@ var
   i: int64;
 begin
   areasum := area;
-  for i := 0 to n - 1 do
+  for i := 2 to n do
   begin
     area := area * eminus2;
     areasum += area;
