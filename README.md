@@ -150,6 +150,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> Triangular Numbers](https://www.codewars.com/kata/56d0a591c6c8b466ca00118b) - Solution: [triangular_numbers_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/triangular_numbers_unit.pas)
 1. [<7 kyu> Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) - Solution: [vowel_count_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/vowel_count_unit.pas)
 1. [<7 kyu> Waiting room](https://www.codewars.com/kata/542f0c36d002f8cd8a0005e5) - Solution: [waiting_room_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/waiting_room_unit.pas)
+1. [<8 kyu> Clock](https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a) - Solution: [clock_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/clock_unit.pas)
 1. [<8 kyu> Cockroach](https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6) - Solution: [cockroach_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/cockroach_unit.pas)
 1. [<8 kyu> Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) - Solution: [even_or_odd_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/even_or_odd_unit.pas)
 1. [<8 kyu> Function 1 - hello world](https://www.codewars.com/kata/523b4ff7adca849afe000035) - Solution: [hello_world_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/hello_world_unit.pas)
