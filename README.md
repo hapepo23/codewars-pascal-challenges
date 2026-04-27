@@ -153,5 +153,6 @@ The code I released here into the public domain may appear in third-party projec
 1. [<8 kyu> Cockroach](https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6) - Solution: [cockroach_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/cockroach_unit.pas)
 1. [<8 kyu> Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) - Solution: [even_or_odd_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/even_or_odd_unit.pas)
 1. [<8 kyu> Function 1 - hello world](https://www.codewars.com/kata/523b4ff7adca849afe000035) - Solution: [hello_world_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/hello_world_unit.pas)
+1. [<8 kyu> School Paperwork](https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd) - Solution: [school_paperwork_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/school_paperwork_unit.pas)
 
 -----
