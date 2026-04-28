@@ -77,6 +77,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<6 kyu> Banker's Plan](https://www.codewars.com/kata/56445c4755d0e45b8c00010a) - Solution: [bankers_plan_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/bankers_plan_unit.pas)
 1. [<6 kyu> Binaries](https://www.codewars.com/kata/5d98b6b38b0f6c001a461198) - Solution: [binaries_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/binaries_unit.pas)
 1. [<6 kyu> Bonuses](https://www.codewars.com/kata/5d68d05e7a60ba002b0053f6) - Solution: [bonuses_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/bonuses_unit.pas)
+1. [<6 kyu> Bouncing Balls](https://www.codewars.com/kata/5544c7a5cb454edb3c000047) - Solution: [bouncing_balls_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/bouncing_balls_unit.pas)
 1. [<6 kyu> Braking well](https://www.codewars.com/kata/565c0fa6e3a7d39dee000125) - Solution: [braking_well_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/braking_well_unit.pas)
 1. [<6 kyu> Build a pile of Cubes](https://www.codewars.com/kata/5592e3bd57b64d00f3000047) - Solution: [pile_of_cubes_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/pile_of_cubes_unit.pas)
 1. [<6 kyu> Buying a car](https://www.codewars.com/kata/554a44516729e4d80b000012) - Solution: [buying_a_car_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/buying_a_car_unit.pas)
