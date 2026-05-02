@@ -103,6 +103,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<6 kyu> Help the bookseller !](https://www.codewars.com/kata/54dc6f5a224c26032800005c) - Solution: [help_the_bookseller_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/help_the_bookseller_unit.pas)
 1. [<6 kyu> Hidden "Cubic" numbers](https://www.codewars.com/kata/55031bba8cba40ada90011c4) - Solution: [hidden_cubic_numbers_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/hidden_cubic_numbers_unit.pas)
 1. [<6 kyu> How Much?](https://www.codewars.com/kata/55b4d87a3766d9873a0000d4) - Solution: [how_much_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/how_much_unit.pas)
+1. [<6 kyu> Is a number prime?](https://www.codewars.com/kata/5262119038c0985a5b00029f) - Solution: [is_prime_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/is_prime_unit.pas)
 1. [<6 kyu> Magnitude](https://www.codewars.com/kata/5cc70653658d6f002ab170b5) - Solution: [magnitude_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/magnitude_unit.pas)
 1. [<6 kyu> Meeting](https://www.codewars.com/kata/59df2f8f08c6cec835000012) - Solution: [meeting_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/meeting_unit.pas)
 1. [<6 kyu> Moduli number system](https://www.codewars.com/kata/54db15b003e88a6a480000b9) - Solution: [moduli_number_system_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/moduli_number_system_unit.pas)
