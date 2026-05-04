@@ -159,6 +159,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> Sum of odd numbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064) - Solution: [sum_of_odd_numbers_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/sum_of_odd_numbers_unit.pas)
 1. [<7 kyu> Target Date](https://www.codewars.com/kata/569218bc919ccba77000000b) - Solution: [target_date_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/target_date_unit.pas)
 1. [<7 kyu> Triangular Numbers](https://www.codewars.com/kata/56d0a591c6c8b466ca00118b) - Solution: [triangular_numbers_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/triangular_numbers_unit.pas)
+1. [<7 kyu> Two to One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac) - Solution: [two_to_one_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/two_to_one_unit.pas)
 1. [<7 kyu> Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) - Solution: [vowel_count_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/vowel_count_unit.pas)
 1. [<7 kyu> Waiting room](https://www.codewars.com/kata/542f0c36d002f8cd8a0005e5) - Solution: [waiting_room_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/waiting_room_unit.pas)
 1. [<8 kyu> Clock](https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a) - Solution: [clock_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/clock_unit.pas)
