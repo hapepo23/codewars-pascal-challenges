@@ -18,6 +18,8 @@ My solutions to some [**Codewars challenges**](https://www.codewars.com/users/br
 
 Current Pascal rank (since March 31, 2026): 4 kyu.
 
+On May 5, 2026, I solved all Pascal challenges that existed on Codewars at that time.
+
 -----
 
 See also:
@@ -46,6 +48,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<5 kyu> Best travel](https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa) - Solution: [best_travel_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/best_travel_unit.pas)
 1. [<5 kyu> Buddy Pairs](https://www.codewars.com/kata/59ccf051dcc4050f7800008f) - Solution: [buddy_pairs_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/buddy_pairs_unit.pas)
 1. [<5 kyu> Closest and Smallest](https://www.codewars.com/kata/5868b2de442e3fb2bb000119) - Solution: [closest_and_smallest_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/closest_and_smallest_unit.pas)
+1. [<5 kyu> Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95) - Solution: [common_denominators_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/common_denominators_unit.pas)
 1. [<5 kyu> Consecutive k-Primes](https://www.codewars.com/kata/573182c405d14db0da00064e) - Solution: [consecutive_k_primes_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/consecutive_k_primes_unit.pas)
 1. [<5 kyu> Decimal to Factorial and Back](https://www.codewars.com/kata/54e320dcebe1e583250008fd) - Solution: [decimal_to_factorial_and_back_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/decimal_to_factorial_and_back_unit.pas)
 1. [<5 kyu> Diophantine Equation](https://www.codewars.com/kata/554f76dca89983cc400000bb) - Solution: [diophantine_equation_unit.pas](https://github.com/hapepo23/codewars-pascal-challenges/blob/master/diophantine_equation_unit.pas)
